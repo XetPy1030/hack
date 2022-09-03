@@ -7,4 +7,5 @@ data = {
     "chat_id": "5587985143",
     "text": "Работает на " + sys.platform
 }
-print(requests.get(url, data=data).text)
+requests.get(url, data=data)
+print('Я живой')
